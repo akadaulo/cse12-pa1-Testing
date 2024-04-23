@@ -1,4 +1,3 @@
-
 package cse12pa1student;
 
 import java.util.Collection;
