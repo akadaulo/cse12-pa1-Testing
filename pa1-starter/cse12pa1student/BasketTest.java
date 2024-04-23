@@ -629,7 +629,7 @@ public class BasketTest {
 	public void addingNullDoesNotIncreaseCount1(){
 		Basket basketToTest = makeBasket();
 		
-		basketToTest.addToBasket(t:null);
+		basketToTest.addToBasket(null);
 		
 		assertEquals(0, basketToTest.count());
 	}
